@@ -1,12 +1,64 @@
-:root {
-  font: 16px / 1 sans-serif;
-}
-
-html {
-  height: 100%;
-}
-
-body {
+html, body {
   margin: 0;
-  min-height: 100%;
+  padding: 0;
+  width: 100%;
+
 }
+
+a{
+  text-decoration: none;
+  color: #f9f9f9;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px
+}
+
+.page-title{
+  color: #f9f9f9;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position:absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+Body {
+  height: 100vh;
+  background: #0A384A;
+
+}
+
+.btn {
+
+
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  padding: 100px;
+}
+
+button{
+  background: none;
+  color: #F4F3E1;
+  width: 240px;
+  height: 80px;
+  border: 1px solid #F4F3E1;
+  font-size: 18px;
+  border-radius: 10px;
+  transition: .3s;
+  overflow: hidden;
+  margin: 5px 5px;
+
+}
+
+
+
+button:hover {
+  background: #609691;
+  cursor: pointer;
+}
+
