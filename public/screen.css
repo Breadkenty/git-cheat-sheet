@@ -5,60 +5,99 @@ html, body {
 
 }
 
-a{
-  text-decoration: none;
-  color: #f9f9f9;
-  font-family: 'Lato', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 2px
+html {
+  background-color: #A1C181;
 }
 
 .page-title{
-  color: #f9f9f9;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
-  position:absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  padding-top: 17%;
 }
 
-Body {
-  height: 100vh;
-  background: #0A384A;
-
+.cl-title{
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  padding-top: 17%;
+  padding-bottom: 5%;
 }
 
-.btn {
 
 
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  padding: 100px;
+.lists{
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #f9f9f9;
+
+  text-align: center;
+  height: 105px;
+
+  background:#233D4D;
+  overflow: auto;
 }
 
-button{
-  background: none;
-  color: #F4F3E1;
-  width: 240px;
-  height: 80px;
-  border: 1px solid #F4F3E1;
-  font-size: 18px;
+.back {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+
+.btn { 
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 15px;
+  text-decoration: none;
   border-radius: 10px;
+  color: #f9f9f9;
+
+  width: 270px;
+  height: 70px;
+  background: #233D4D;
+
+  margin-left: 5px;
+  margin-right: 5px;
+
   transition: .3s;
-  overflow: hidden;
-  margin: 5px 5px;
 
 }
-
-
 
 button:hover {
-  background: #609691;
   cursor: pointer;
+  background: #FCCA46;
+}
+
+button:after{
+  content: '';
+  display: block;
+  position: absolute;
+  background: rgba(255,255,255, .2);
+  width: 30px;
+  height: 100%;
+  left: 30px;
+  top: 0;
+  opacity: 0;
+  filter: blur(30px);
+  transform: translate(-100px) scaleX(-15deg);
 }
 
