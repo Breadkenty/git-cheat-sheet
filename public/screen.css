@@ -9,6 +9,24 @@ html {
   background-color: #A1C181;
 }
 
+.title{
+  top: 10px;
+}
+
+.screenshot{
+
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img{
+  width: 600px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 
 
 .page-title{
@@ -18,19 +36,22 @@ html {
   text-align: center;
   color: #ffffff;
   font-size: 20px;
-  padding-top: 17%;
+  padding-top: 25vh;
+  padding-bottom: 3%;
 }
 
-.cl-title{
+.page-title-2{
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center;
   color: #ffffff;
   font-size: 20px;
-  padding-top: 17%;
-  padding-bottom: 5%;
+  display:block;
+ 
 }
+
+
 
 
 
@@ -53,7 +74,7 @@ html {
   display:flex;
   align-items: center;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 20px;
 }
 
 
@@ -71,6 +92,7 @@ button {
   font-size: 15px;
   text-decoration: none;
   border-radius: 10px;
+  border-color: #233D4D;
   color: #f9f9f9;
 
   width: 270px;
@@ -87,6 +109,7 @@ button {
 button:hover {
   cursor: pointer;
   background: #FCCA46;
+  border-color: #FCCA46;
 }
 
 button:after{
